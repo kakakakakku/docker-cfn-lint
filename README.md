@@ -15,3 +15,4 @@ $ docker run -v ${PWD}:/templates -it kakakakakku/cfn-lint -t "templates/*.yaml"
 ## Supported versions
 
 - v0.17.1 (latest)
+- v0.18.1
