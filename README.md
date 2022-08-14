@@ -22,3 +22,4 @@ $ docker run -v ${PWD}:/templates -it kakakakakku/cfn-lint -t "templates/*.yaml"
 - v0.22.4
 - v0.24.6
 - v0.44.4
+- v0.61.5
