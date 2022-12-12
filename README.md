@@ -1,7 +1,6 @@
 # docker-cfn-lint
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/kakakakakku/cfn-lint.svg?style=for-the-badge)](https://hub.docker.com/r/kakakakakku/cfn-lint/)
-[![Docker Automated build](https://img.shields.io/docker/automated/kakakakakku/cfn-lint.svg?style=for-the-badge)](https://hub.docker.com/r/kakakakakku/cfn-lint/)
 
 Dockerized CloudFormation Linter ([cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint))
 
@@ -23,3 +22,12 @@ $ docker run -v ${PWD}:/templates -it kakakakakku/cfn-lint -t "templates/*.yaml"
 - v0.24.6
 - v0.44.4
 - v0.61.5
+- v0.72.2
+
+## Build
+
+```sh
+$ VERSION=v0.72.2
+$ docker build -t kakakakakku/cfn-lint:${VERSION} ${VERSION}/
+$ docker push kakakakakku/cfn-lint:${VERSION}
+```
